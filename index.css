@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+body {
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/990/589/239/death-valley-sky-wallpaper-preview.jpg);
+    font-family: 'Dekko'; 
+}
+.navbar {
+    background-color: black !important;
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    z-index: 9999; 
+    width: 100%; 
+}
+.navbar-toggler {
+    background-color: rgba(172, 255, 47, 0.803) ;
+    color: rgba(172, 255, 47, 0.803) !important;
+}
+/* .navbar-nav {
+    display: flex;
+    justify-content: ;
+} */
+.nav-link:hover, .fa-brands:hover {
+    color: white;
+}
+.nav-link , .fa-brands{
+    color: rgba(172, 255, 47, 0.803);
+    margin: 2em !important;
+}
+.icon {
+    /* display: flex;
+    text-decoration: none; */
+    margin: 1rem;
+}
+.container-fluid {
+  flex-wrap: nowrap !important;
+}
+.hdImage {
+  width: 20%;
+  height: 80%;
+}
+.cImage {
+  width: 40rem;
+  /* height: 22.5rem; */
+}
+
+.card {
+  margin: 2rem;
+}
+.card-group {
+  text-align: center;
+
+}
+.card-text {
+    font-family: 'Dekko';
+
+}
+.card-title {
+    text-decoration: none;
+    color: rgba(172, 255, 47, 0.803);
+}
+.about {
+    color: rgba(172, 255, 47, 0.803);
+    font-family: 'Dekko';
+    font-size: 1.5rem;
+}
+h2 {
+    padding: 1rem;
+    margin: 4rem;
+    color: purple;
+    border: 0.2rem solid;
+    border-radius: 0.5rem;
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+}
+.quote {
+  vertical-align: middle;
+}
+.about,
+h2 {
+  text-align: center;
+}
+.carousel-inner {
+  background-color: black !important;
+}
+
+@media screen and (min-width: 868px) {
+  .cImage {
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+    height: 100vh;
+    width: 60rem !important;
+    display: block;
+  }
+  .carousel-item {
+    height: 100vh !important;
+    width: 100vw !important;
+    align-items: center;
+    justify-content: center;
+  }
+}
+footer {
+    margin-top: 4rem;
+    background-color: black;
+    border-radius: 1rem;
+    /* border-bottom-left-radius: 3rem;
+    border-bottom-right-radius: 3rem; */
+}
+ul, .copyright{
+    list-style: none;
+    color: rgba(172, 255, 47, 0.803);
+}
